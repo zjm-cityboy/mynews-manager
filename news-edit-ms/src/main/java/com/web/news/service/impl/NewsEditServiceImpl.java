@@ -6,6 +6,8 @@ import com.web.news.service.NewsEditService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
+
 @Service
 public class NewsEditServiceImpl implements NewsEditService {
 
@@ -14,6 +16,14 @@ public class NewsEditServiceImpl implements NewsEditService {
 
     @Override
     public void updateNews(News news) {
+        news.setCreatedate(new Date());
         newsMapper.updateByPrimaryKey(news);
     }
+
+    @Override
+    public void addNews(News news) {
+        news.setCreatedate(new Date());
+        newsMapper.insert(news);
+    }
+
 }
