@@ -21,7 +21,7 @@ springcloud包含很多技术栈。Springcloud Netflex技术栈是最基础：
 网关            Zuul
 微服务间访问的客户端   Feign
 
-六  Eureka注册中心
+Eureka注册中心
 微服务系统的组成：
 服务注册中心
 服务提供者
