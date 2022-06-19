@@ -26,4 +26,10 @@ public class NewsEditServiceImpl implements NewsEditService {
         newsMapper.insert(news);
     }
 
+    @Override
+    public void removeNews(int[] ids) {
+        for (int id : ids) {
+            newsMapper.deleteByPrimaryKey(id);
+        }
+    }
 }

@@ -8,4 +8,6 @@ public interface NewsEditService {
 
     public void addNews(News news);
 
+    public void removeNews(int[] ids);
+
 }
