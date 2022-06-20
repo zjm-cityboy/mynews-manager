@@ -29,3 +29,8 @@ Eureka注册中心
 
 
 vue  或  angular  mvvm模式的js前端框架， 重点vm，指的是视图与模型的双向绑定，有利于简化繁琐的DOM编程
+
+实训资料
+链接：https://pan.baidu.com/s/1l_gtbHp78Eicfjab141beA?pwd=WZJM 
+提取码：WZJM 
+--来自百度网盘超级会员V3的分享
